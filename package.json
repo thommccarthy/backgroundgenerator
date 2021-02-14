@@ -1,0 +1,22 @@
+{
+  "name": "backgroundgenerator",
+  "version": "1.0.0",
+  "description": "App to generate a linear gradient CSS background.",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thommccarthy/backgroundgenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thommccarthy/backgroundgenerator/issues"
+  },
+  "homepage": "https://github.com/thommccarthy/backgroundgenerator#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
